@@ -1,18 +1,111 @@
-<!--
-Vytvoř osobní vizitku se:
+<!DOCTYPE html>
+<html lang="sk">
 
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
+<head>
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Osobná vizitka</title>
+</head>
 
-Vizitku ostyluj pomocí CSS:
+<body>
+    <div class="content">
+        <header>
+            <p class="text-center">
+                <img class="header-image" src="obrazky/pngfind.com-png-divider-619915.png"
+                    alt="obrázok s kvetinami" />
+            </p>
+            <h1 class="text-center">Katarína Krajčovičová</h1>
+        </header>
+        <main>
+            <section>
+                <p class="menu-heading"><strong>Obsah</strong></p>
+                <nav>
+                    <ul>
+                        <li><a href="#kotva1">Všeobecné informácie</a></li>
+                        <li><a href="#kotva2">Záľuby</a></li>
+                        <li><a href="#kotva3">Záver</a></li>
+                    </ul>
+                </nav>
+            </section>
 
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
+            <section>
+                <p class="text-center">
+                    <img src="obrazky/Katarina.png" alt="Fotka Katarína" />
+                </p>
+                <p class="text-center">
+                    <a href="dokument/Životopis.docx">Stiahnuť životopis</a><br />
+                    <a href="mailto:katarina.krajcovicova1@gmail.com">Email</a>
+                </p>
+            </section>
+            <section>
+                <h2 id="kotva1">Všeobecné informácie</h2>
+                <p class="main-margin">
+                    <strong> Volám sa Katarína a som zo Slovenska. Na Slovensku ale nežijem už 9 kokov. Vyštudovala som
+                        marketing v Trnave. Po ukončení vysokej školy som sa presťahovala do Berlína, kde som žila viac
+                        ako 3 roky. Postupne som sa viac
+                        a viac začala zaujímať o weby a nakoniec som som sa marketingu prestala venovať úplne. V Prahe
+                        som pracovala najprv ako web content editor, neskôr na supporte v IT spoločnosti a momentálne
+                        ako project manager v malej IT fimre.
+                    </strong>
+                </p>
+                <h2 id="kotva2">Záľuby</h2>
+                <p class="main-margin">
+                    Mám rada všetko kreatívne. Venujem sa vo voľnom čase veľa kreatívnym technikám a neustále ich
+                    striedam. Začalo to, keď mi ako malej podaroval otec svoje korálky. Odvtedy prešlo veľa rokov a ja
+                    som sa venovala reštaurovaniu nábytku, výrobe šperkov, tkaniu, maľovaniu akvarelov, krasopísmu...
+                    Pár ukážok prikladám v prehľadovej galérii. <br /><br />
+                    Ak už hovoríme o záľubách, chcela by som vyzdvihnúť moju záľubu v príprave raňajok. Milujujem farby
+                    a ovocie a raňajky sú pre mňa najobľubenejšie jedlo dňa :-)
+                </p>
+                <h3>Galéria akvarelov</h3>
+                <p>
+                    <img width="240" src="obrazky/akvarel1.jpg" alt="akvarel abstrakt" />
+                    <img width="240" src="obrazky/akvarel2.jpg" alt="akvarel káva" />
+                    <img width="240" src="obrazky/akvarel3.jpg" alt="akvarel hory" />
+                    <img width="240" src="obrazky/akvarel4.jpg" alt="akvarel star wars" />
 
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
--->
+                </p>
+                <h3>Základné informácie</h3>
+                <p>
+                    <img width="180" height="200" src="obrazky/tabula.jpg" alt="tabula v kuchyni" />
+                    <img width="180" height="200" src="obrazky/krasopismo.JPG" alt="ukážka krasopísma" />
+                    <img width="180" height="200" src="obrazky/tkanie.jpg" alt="tkaná dekorácia" />
+                    <img width="220" height="200" src="obrazky/kresba2.jpg" alt="kresba dáma" />
+                    <img width="200" height="200" src="obrazky/razitka.JPG" alt="razítka" />
+                </p>
+                <h3>Raňajky</h3>
+                <p class="main-margin">
+                    <img width="200" height="200" src="obrazky/Snidane1.JPG" alt="smoothie bowl" />
+                    <img width="180" height="200" src="obrazky/Snidane2.JPG" alt="raňajky" />
+                    <img width="180" height="200" src="obrazky/Snidane3.JPG" alt="kurkumová kaša" />
+                    <img width="200" height="200" src="obrazky/Snidane4.JPG" alt="jogurt a ovoce" />
+                    <img width="200" height="200" src="obrazky/Snidane5.JPG" alt="čoko kaša" />
+                </p>
+                <h2 id="kotva3">Záver</h2>
+                <p>
+                    Na záver by som chcela napísať, že som veľmi rada, že som dostala príležitosť navštevovať tento
+                    kurz. Určite všetky nadobudnuté poznatky využijem vo svojej práci, ale aj voľnom čase. Do bdúcnosti
+                    by som chcela svoje znalosti ešte viac zdokonalovať a venovať sa tvore webov.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p class="text-center">
+                <a href="https://www.facebook.com/katarina.k.krajcovicova">
+                    <img width="60" src="obrazky/iconfinder_facebook_circle_294710.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/kachna2233/?hl=cs">
+                    <img width="60" src="obrazky/iconfinder_instagram_circle_294711.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/katar%C3%ADna-kraj%C4%8Dovi%C4%8Dov%C3%A1-b1435484/">
+                    <img width="60" src="obrazky/iconfinder_linkedin_circle_294706.png" alt="linkedin">
+                </a>
+            </p>
+            <p>Vytvorila som si pre seba &copy;Katarína</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana;
+    background-image: url('obrazky/pozadi_sede_final.png');
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #5d0574;
+    font-family: Arial;
+    font-size: 38px;
+    text-shadow: 3px 3px 7px #bebcbc;
+}
+
+h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+h3, h4 {
+    color: #b808a0;
+    font-family: Arial;
+}
+.text-center {
+    text-align: center;
+}
+
+h1.pink {
+    color: #8a0a5f;
+}
+.header-image {
+    width: 50%;
+    vertical-align: 10px; 
+}
+.content {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+ul {
+    list-style-type: none;
+}
+.menu-heading {
+    padding-left: 40px;
+}
+.main-margin {  
+    margin-bottom: 60px
+}
